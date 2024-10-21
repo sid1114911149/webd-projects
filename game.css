@@ -1,0 +1,61 @@
+.heading{
+    height: 70px;
+    display:flex;
+    background-color: darkslateblue;
+    color:white;
+    font-weight:100;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    top:150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.choice{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin:20px;
+    background-size: cover;
+}
+#rock{
+    background-image: url("https://husseinhewehii.github.io/Rock_Paper_Scissors/rock.png");
+}
+#paper{
+    background-image: url("https://th.bing.com/th/id/OIP.jzooPvoFxYlEPM8UGE3-YQHaHv?rs=1&pid=ImgDetMain");
+}
+#scissors{
+    background-image: url("https://th.bing.com/th/id/OIP.Yq5brfMgrfiaRyAAPDfZDAHaHv?rs=1&pid=ImgDetMain");
+}
+.choice:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+.score{
+    display:flex;
+    justify-content:center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+#msg{
+    background-color: #081b31;
+    color:white;
+    height:4rem;
+    width:18rem;
+    align-self: center;
+    display:flex;
+    align-items:center;
+    justify-content: center;  
+    padding:1rem;
+    border-radius:1rem;  
+}
+#user{
+    margin-right:30px;
+}
+#computer{
+    margin-right:30px;
+}

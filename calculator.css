@@ -1,0 +1,30 @@
+.final{
+    width:800px;
+    height:50px;
+    border:5px solid grey;
+    border-radius:15%;
+    margin-top:50px ;
+    margin-left:300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.calculator{
+    width:400px;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top: 20px;
+    margin-left:500px; 
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    font-size: 1.2rem;
+    border-radius:50%;
+
+}

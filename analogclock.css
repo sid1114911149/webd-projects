@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+}
+.analog{
+    position:relative;
+    margin:auto;
+    margin-top:50px;
+    border:2px solid black;
+    height: 40vw;
+    width: 40vw;
+    background: url(analog.png) no-repeat;
+    background-size:100%;
+}
+#hours,#minutes,#seconds{
+    position:absolute;
+    border-radius:10px;
+    background: black;
+    transform-origin:bottom;
+}
+#hours{
+    width: 1%;
+    height: 20%;
+    top: 31.2%;
+    left: 49.7%;
+    opacity: 0.8;
+}
+#minutes{
+    width: 1%;
+    height: 30%;
+    top: 19.6%;
+    left: 49.75%;
+    opacity: 0.8;
+}
+#seconds{
+    width: 1%;
+    height: 35%;
+    top: 15%;
+    left: 49.7%;
+    opacity: 0.8;
+}
