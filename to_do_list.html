@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+    <link rel="stylesheet" href="to_do_list.css">
+</head>
+<body>
+    <header>
+    <nav class="navBar">
+        <a href="#" class="logo">TO-DO-LIST</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link" id="home">CLEAR</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="Add">ADD</a>
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <input type="text" placeholder="Enter Event" id="newevent">
+                        <button id="btn" class="buttons">enter</button>
+                        <button id="btn2" class="buttons">enter</button>
+                        <button id="btn3" class="buttons">enter</button>
+                        <span class="close-button" id="closePopup">&times;</span>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" id="update">UPDATE</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    </header>
+    <div class="DoList">
+        <ol class="List">
+        </ol>
+    </div>
+    <script src="to_do_list.js"></script>
+</body>
+</html>
